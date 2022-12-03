@@ -3,7 +3,6 @@ import '../styles/App.css';
 import { IgnoreCaseToggle } from './IgnoreCaseToggle';
 import { ParagraphInput } from './ParagraphInput';
 import { WordInput } from './WordInput';
-
 const App = () => {
   const [word, setWord] = useState("")
   const [wordCount,setWordCount] = useState(0)
